@@ -13,3 +13,8 @@ sessionStorage生命周期为当前窗口或标签页。一旦窗口
 (3)不同浏览器不能共享localStorage或sessionStoreage。
 相同浏览器sessionStoreage可以共享。
 相同浏览器不同窗口或标签页sessionStoreage不可以共享。
+
+3：使用element-ui 日历，报错Vue.js “Maximum call stack size exceeded” error.
+做多页面，单独引用vue.js，当vue.js是V2.5.17-beta.0 版本时，
+使用时间控件会报Maximum call stack size exceeded，当换到V2.5.16版本时就不会出现这个问题了
+
